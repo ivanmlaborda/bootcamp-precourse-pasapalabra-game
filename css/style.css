@@ -1,0 +1,209 @@
+body {
+  background-color: #2A98FF;
+  color: #FFFFFF;
+  font-size: 20px;
+  font-family: sans-serif;
+}
+
+#app {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  margin: auto;
+  height: 650px;
+  width: 850px;
+}
+
+#console {
+  display: block;
+  width:350px;
+  height:287px;
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  margin: auto;
+  text-align: center;
+  background-color: #2A98FF;
+  font-family: sans-serif;
+}
+
+#display {
+  display: block;
+  width:330px;
+  height:150px;
+  position:relative;
+  margin: auto;
+  margin-top: 22px;
+  padding-top: 10px;
+  background-color: #2A98FF;
+  font-weight: bold;
+  text-shadow: black 0.04em 0.04em 0.08em;
+}
+
+#userInput {
+  width:330px;
+  height:50px;
+  position:relative;
+  margin: auto;
+  background-color: white;
+  text-align: center;
+  border: 0px;
+  visibility: hidden;
+  box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+}
+
+#buttons {
+  margin: auto;
+  margin-top: 25px;
+  text-align: center;
+}
+
+#startBut {
+}
+
+#sendNameBut {
+  display: none;
+}
+
+#sendAnswBut {
+  display: none;
+}
+
+#continBut {
+  display: none;
+}
+
+#pasBut {
+  display: none;
+}
+
+#endBut {
+  display: none;
+}
+
+#exitBut {
+  display: none;
+}
+
+#rankButUnpushed {
+  display: none;
+}
+
+#rankButPushed {
+  display: none;
+}
+
+.button {
+  margin: auto;
+  background-color: #FFB007;
+  color: white;
+  font-weight: bold;
+  text-shadow: black 0em 0em 0.1em;
+  padding: 8px;
+  border-radius: 10px;
+  border: 2px solid white;
+  box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+  -webkit-transition-duration: 0.4s; /* Safari */
+  transition-duration: 0.4s;
+}
+
+.button:hover {
+  background-color: #F27D29;
+}
+
+/*Rosco*/
+
+#lettersCircle {
+  position: absolute;
+  width: 650px;
+  height: 650px;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  margin: auto;
+
+  border-radius: 50%;
+}
+
+.letter {
+  position: absolute;
+  width: 50px;
+  height: 50px;
+  border: 3px solid white;
+  border-radius: 50%;
+  box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+  box-shadow: inset 2px 2px 2px 2px #1C222C;
+  background-color: #107FC9;
+
+}
+
+.letter p {
+  position: relative;
+  font-family: sans-serif;
+  font-weight: bold;
+  text-shadow: black 0.1em 0.1em 0.2em;
+  font-size: 22px;
+  text-align: center;
+  -ms-transform: translateY(-38%);
+  -webkit-transform: translateY(-38%);
+  transform: translateY(-38%);
+}
+
+#marker {
+  position: absolute;
+  display: none;
+  width: 100px;
+  height: 180px;
+  left: 0;
+  bottom: 50px;
+  margin: auto;
+  font-weight: bold;
+  font-size: 24px;
+}
+
+#timer {
+  position: absolute;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: auto;
+  background-color: #FFB007;
+  color: white;
+  font-weight: bold;
+  text-shadow: black 0em 0em 0.1em;
+  text-align: center;
+  padding: 8px;
+  width: 80px;
+  height: 80px;
+  border: 3px solid white;
+  border-radius: 50%;
+  box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+  box-shadow: inset 2px 2px 2px 2px #1C222C;
+}
+
+#succMarker{
+  position: absolute;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: auto;
+  background-color: #FFB007;
+  color: white;
+  font-weight: bold;
+  text-shadow: black 0em 0em 0.1em;
+  text-align: center;
+  padding: 8px;
+  width: 80px;
+  height: 50px;
+  bottom: 0px;
+  border: 3px solid white;
+  border-radius: 8px;
+  box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+  box-shadow: inset 2px 2px 2px 2px #1C222C;
+
+}

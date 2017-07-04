@@ -1,0 +1,137 @@
+<DOCTYPE html>
+
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <title>Project Pasapalabra - Ivan Martinez Laborda 2017 - SkyLab Coders</title>
+  <link type="text/css" rel="stylesheet" href="css/style.css"/>
+
+</head>
+
+<body>
+
+  <div id="app">
+    <!--Rosco-->
+    <div id="lettersCircle">
+      <div id="aLet" class="letter">
+        <p>A</p>
+      </div>
+      <div id="bLet" class="letter">
+        <p>B</p>
+      </div>
+      <div id="cLet" class="letter">
+        <p>C</p>
+      </div>
+      <div id="dLet" class="letter">
+        <p>D</p>
+      </div>
+      <div id="eLet" class="letter">
+        <p>E</p>
+      </div>
+      <div id="fLet" class="letter">
+        <p>F</p>
+      </div>
+      <div id="gLet" class="letter">
+        <p>G</p>
+      </div>
+      <div id="hLet" class="letter">
+        <p>H</p>
+      </div>
+      <div id="iLet" class="letter">
+        <p>I</p>
+      </div>
+      <div id="jLet" class="letter">
+        <p>J</p>
+      </div>
+      <div id="kLet" class="letter">
+        <p>K</p>
+      </div>
+      <div id="lLet" class="letter">
+        <p>L</p>
+      </div>
+      <div id="mLet" class="letter">
+        <p>M</p>
+      </div>
+      <div id="nLet" class="letter">
+        <p>N</p>
+      </div>
+      <div id="ñLet" class="letter">
+        <p>Ñ</p>
+      </div>
+      <div id="oLet" class="letter">
+        <p>O</p>
+      </div>
+      <div id="pLet" class="letter">
+        <p>P</p>
+      </div>
+      <div id="qLet" class="letter">
+        <p>Q</p>
+      </div>
+      <div id="rLet" class="letter">
+        <p>R</p>
+      </div>
+      <div id="sLet" class="letter">
+        <p>S</p>
+      </div>
+      <div id="tLet" class="letter">
+        <p>T</p>
+      </div>
+      <div id="uLet" class="letter">
+        <p>U</p>
+      </div>
+      <div id="vLet" class="letter">
+        <p>V</p>
+      </div>
+      <div id="wLet" class="letter">
+        <p>W</p>
+      </div>
+      <div id="xLet" class="letter">
+        <p>X</p>
+      </div>
+      <div id="yLet" class="letter">
+        <p>Y</p>
+      </div>
+      <div id="zLet" class="letter">
+        <p>Z</p>
+      </div>
+    </div>
+
+    <!--Display-->
+    <div id="console">
+      <div id="display">
+
+      </div>
+
+        <input id="userInput" input type="text" placeholder="introduce tu nombre" autocomplete="off">
+
+      <div id="buttons">
+        <button id="startBut" class="button" onclick="playPasapalabra()">Entrar</button>
+        <button id="sendNameBut" class="button" onclick="saveName()">Comenzar</button>
+        <button id="sendAnswBut" class="button" onclick="checkAnswer()">Enviar</button>
+        <button id="continBut" class="button" onclick="nextQuestion()">Continuar</button>
+        <button id="pasBut" class="button" onclick="pasaPalabra()">Pasapalabra</button>
+        <button id="endBut" class="button" onclick="endGame()">Terminar</button>
+        <button id="rankButUnpushed" class="button" onclick="showRank()">Ranking</button>
+        <button id="rankButPushed" class="button" onclick="hideRank()">Volver</button>
+        <button id="exitBut" class="button" onclick="init()">Salir</button>
+      </div>
+
+    </div>
+
+    <div id="marker">
+      <div id="timer">
+      </div>
+      <div id="succMarker">
+      </div>
+    </div>
+
+  </div>
+
+  <!--Cargando script JS-->
+  <script src="js/app.js"></script>
+  <script src="js/circle.js"></script>
+
+</body>
+
+</html>
